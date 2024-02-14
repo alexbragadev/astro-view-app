@@ -10,10 +10,12 @@ import { MenuModule } from 'primeng/menu';
 import { AppRoutingModule } from './../app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/web-site/header/header.component';
+import { TemplateTitleTextComponent } from './components/web-site/template-title-text/template-title-text.component';
 
 @NgModule({
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    TemplateTitleTextComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,8 @@ import { HeaderComponent } from './components/web-site/header/header.component';
     ButtonModule
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    TemplateTitleTextComponent
   ],
   providers: [],
   bootstrap: []
